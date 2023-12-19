@@ -1,0 +1,15 @@
+create repository and add file next
+
+cat > file1.txt
+
+git add .
+
+git status
+
+git commit -m "pinish"
+
+git branch -M main
+
+git remote add origin https://github.com/srinagapoojitha/srinagapoojitha
+
+git push -u origin main
