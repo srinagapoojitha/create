@@ -1,0 +1,71 @@
+ git clone https://github.com/srinagapoojitha/srinagapoojitha
+ 
+ cd srinagapoojitha/
+
+git remote -v
+
+git remote add origin1  https://github.com/srinagapoojitha/srinagapoojitha
+
+git remote set-url origin1  https://github.com/srinagapoojitha/srinagapoojitha
+
+git remote set-url origin1  https://github.com/srinagapoojitha/srinagapoojitha
+
+git push origin1 main
+
+ mkdir map
+
+ cd map
+
+git init
+
+ cd .git
+
+cat config
+
+ cd ..
+
+git branch -M master1
+
+ git remote add origin2  https://github.com/srinagapoojitha/srinagapoojitha
+
+cat .git/config
+
+cat > dev
+
+git add .
+
+ git commit -m "dev"
+
+git push origin2 master1
+ 
+ show HEAD
+ 
+ git branch
+ 
+ git branch test
+ 
+ git branch 
+ 
+ git checkout test
+ 
+ git branch
+ 
+ cat > file3.txt
+ 
+ git add .
+ 
+ git commit -m "git"
+ 
+ git push origin2 test
+ 
+ git checkout master1
+ 
+ git checkout test 
+ 
+ git log
+ 
+ git merge master1
+ 
+ git pull origin2 master1
+ 
+ git push  origin2 master1

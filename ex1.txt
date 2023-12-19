@@ -1,0 +1,31 @@
+git config --global user.name "admin"
+
+git config --global user.email "admin@gmail.com"
+
+git config --global user.name
+
+git config --global user.email
+
+pwd
+
+git --version
+
+ls -a
+
+cat > filename.txt
+(enter your text and press ctrl+d)
+
+cat filename.txt
+
+git status
+
+git add file1
+
+git add .
+
+git log
+
+
+git commit -m "commit message"
+
+
