@@ -1,0 +1,69 @@
+create ec2 instance by adding security group 8080
+0.0.0.0/0
+
+now connect to mobaxterm by copying public ip4 address
+
+session-ssh-paste ip address and default provife name ec2-user
+advance ssh settinga click  private key check box and add key pair and ok accept then connection done
+
+sudo su -
+
+sudo yum install git
+
+jenkins installation in searcgh google- https://www.jenkins.io/doc/book/installing/linux/
+copy commands under fedora first three paste in moba and enter
+
+ sudo yum install java-17-amazon-corretto-devel
+
+sudo dnf install jenkins
+
+sudo systemctl enable jenkins
+
+sudo systemctl start jenkins
+
+browser new tab -instance public ip:8080 enter
+
+link copy paste in browser #vi paste
+
+install plugins
+
+select plugins -all-install
+
+username,pass
+
+click continuw
+click start jenkins
+
+
+new item - name-free style 
+-ok-left corner-build steps
+ execute shell
+ 
+ echo welcome 
+ uptime
+ 
+ bulid now ->at left 
+ green mark to show output
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ maven
+ 
+ 
+ cd /opt
+ 
+  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
